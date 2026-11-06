@@ -1,0 +1,26 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(9, 40px);
+    grid-template-rows: repeat(9, 40px);
+    gap: 2px;
+    background-color: #333;
+    padding: 2px;
+    width: max-content;
+    margin: 20px auto;
+}
+
+.board input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+.board input.border-top-thick {
+    border-top: 3px solid #000 !important;
+}
+
+.board input.border-left-thick {
+    border-left: 3px solid #000 !important;
+}
